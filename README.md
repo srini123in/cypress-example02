@@ -12,7 +12,6 @@ Install NodeJS, NPM and Chrome on your machine
 - npm install
 
 
-*** NOTE: Before run - start the web app
 ## Run test using cypress dash board
 
 - npm run cy:open
