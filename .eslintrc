@@ -1,0 +1,14 @@
+{
+  "extends": [ "airbnb-base" ],
+  "plugins": [ "jest", "cypress", "node" ],
+  "env": {
+    "jest/globals": true,
+    "cypress/globals": true
+  },
+  "rules": {
+    "semi": ["error", "never"],
+    "no-prototype-builtins": ["off", "always"],
+    "no-underscore-dangle": ["off", "always"],
+    "class-methods-use-this": ["off", "always"]
+  }
+}

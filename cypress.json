@@ -1,0 +1,15 @@
+{
+  "baseUrl": "https://www.saucedemo.com/",  
+  "viewportWidth": 1280,
+    "viewportHeight": 720,
+    "defaultCommandTimeout": 10000,
+    "video": false,
+    "reporter": "junit",
+    "reporterOptions": {
+      "mochaFile": "test-results/test-output-[hash].xml"
+    },
+    "chromeWebSecurity": false,
+    "modifyObstructiveCode": false,
+    "ignoreTestFiles": "*.js",
+    "testFiles": "**/*.feature"
+  }

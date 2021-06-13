@@ -1,0 +1,31 @@
+{
+  "name": "cypress_testframework",
+  "version": "0.1.0",
+  "description": "Cypress Example Test Framework",
+  "scripts": {
+    "cy:open": "cypress open --env configFile=staging"
+  },
+  "dependencies": {
+    "cypress": "5.6.0",
+    "cypress-cucumber-preprocessor": "^4.0.1"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-function-name": "^7.12.13",
+    "eslint": "^6.6.0",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-plugin-cypress": "^2.11.2",
+    "moment-timezone": "^0.5.31"
+  },
+  "cypress-cucumber-preprocessor": {
+    "commonPath": "common",
+    "step_definitions": "cypress/step_definitions",
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  },
+  "author": "Srinivasan",
+  "license": "ISC"
+}
