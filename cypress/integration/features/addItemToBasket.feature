@@ -19,7 +19,7 @@ Feature: Add an item to the basket and checkout
     Examples:
     |sortFilter         |addItemNumber|priceRangeToAddItem|removeItemNumber|priceRangeToRemoveItem|
     |Price (low to high)|2            |lowest             |1               |highest               |
-    |Price (low to high)|4            |highest            |2               |highest               |
+    |Price (high to low)|4            |highest            |2               |highest               |
     |Price (low to high)|3            |lowest             |2               |lowest               |
     |No Filter          |3            |lowest             |2               |lowest               |
     

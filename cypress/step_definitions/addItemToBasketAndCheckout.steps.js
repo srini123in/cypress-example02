@@ -13,7 +13,7 @@ When('user select the sort filter to {}', (filterName) => {
   productPage.selectSortFilter(filterName)
 })
 Then('add to cart {} items which has {} price value', (itemNum, filterType) => {
-  productPage.addToCartAnItem(itemNum, filterType)
+  productPage.addToCartAnItem(itemNum)
 })
 Then('user able to see the added item in the cart', () => {
   basketPage.verifyTheBasketItems()

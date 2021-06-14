@@ -12,7 +12,7 @@ export class ProductPage {
       cy.get(sortFilterDropEle).select(filterName)
     }
   }
-  addToCartAnItem(itemNum, filterType){
+  addToCartAnItem(itemNum){
     let displayPrice
     testData.productPriceArray = []
     testData.basketPriceArray = []
